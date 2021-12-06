@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetKey("left shift") & Input.GetKey("w") && isGrounded)
+        if (Input.GetKey("left shift") && Input.GetKey("w") && isGrounded)
         {
             speed = 15f;
         }
