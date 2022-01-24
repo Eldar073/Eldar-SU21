@@ -1861,6 +1861,7 @@ MonoBehaviour:
   range: 100
   fpsCam: {fileID: 963194227}
   muzzleFlash: {fileID: 842545387}
+  impactEffect: {fileID: 2062930850}
 --- !u!1001 &313074521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11985,7 +11986,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062930850}
   serializedVersion: 7
-  lengthInSec: 2
+  lengthInSec: 4
   simulationSpeed: 20
   stopAction: 0
   cullingMode: 0
@@ -12545,7 +12546,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1
+    maxNumParticles: 10
     size3D: 0
     rotation3D: 0
     gravityModifier:

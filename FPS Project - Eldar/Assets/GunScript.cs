@@ -8,6 +8,7 @@ public class GunScript : MonoBehaviour
 
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
+    public GameObject impactEffect;
 
     void Update()
     {
